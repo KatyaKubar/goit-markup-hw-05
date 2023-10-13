@@ -393,6 +393,21 @@ footer {
 .footer-icon {
     fill: #f4f4fd;
 }
+.footer-label {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+.footer-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+}
 .backdrop {
     position: fixed;
     top: 0;
@@ -533,6 +548,25 @@ footer {
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: #404BBF;
+}
+.modal-checkbox {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+.modal-check {
+    width: 16px;
+    height: 16px;
+}
+.form-label {
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 116.667%;
+    letter-spacing: 0.04em;
+}
+.form-label span {
+    color: #4D5AE5;
+    text-decoration-line: underline;
 }
 .is-open {
     opacity: 1;
