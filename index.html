@@ -387,10 +387,16 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-form">
-                <label class="footer-label" for="subscribe-email">Subscribe</label>
-                <input type="email" name="subscribe-email" class="footer-input" id="subscribe-email">
-
+            <div class="footer-form-wrap">
+                <p class="footer-label">Subscribe</p>
+                <form class="footer-form">
+                    <input type="email" name="subscribe-email" class="footer-input" id="subscribe-email" placeholder="E-mail">
+                    <button type="submit" class="footer-btn">Subscribe 
+                        <svg class="footer-form-icon" width="24" height="24">
+                             <use href="./images/icons.svg#icon-telegram"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
         </div>
     </footer>
@@ -446,8 +452,14 @@
                     <textarea name="user-text" id="user-text" placeholder="Text input" class="modal-textarea"></textarea>
                 </div>
                 <div class="modal-checkbox">
-                    <input type="checkbox" class="modal-check" name="accept" value="accept" id="accept">
-                    <label class="form-label" for="accept">I accept the terms and conditions of the <span>Privacy Policy</span></label>
+                    <input type="checkbox" class="modal-check visually-hidden" name="accept" value="accept" id="accept">
+                    <label class="form-label" for="accept">
+                        <span>
+                            <svg class="modal-check-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-click"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
                 </div>
                 <button type="submit" class="modal-btn">Send</button>
             </form>
